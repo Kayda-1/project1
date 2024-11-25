@@ -5,8 +5,6 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
-    font-family: 'Ad Lib', sans-serif;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 120px;
@@ -17,7 +15,7 @@ body {
 /*///// General /////*/
 .title {
     color: #282538;
-    font-size: 45;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -52,7 +50,7 @@ body {
 
 .header h3 {
     float: left;
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .header h3 a {
@@ -63,7 +61,7 @@ body {
 /*// Search //*/
 .search-bar {
     float: left;
-    padding: 20px 20px;
+    padding: 20px;
     position: relative;
 }
 
@@ -71,7 +69,6 @@ body {
     position: absolute;
     z-index: 2;
     padding: 2px 5px;
-    opacity: 1;
     cursor: text;
 }
 
@@ -79,13 +76,8 @@ body {
     border: 0;
     border-radius: 10px;
     height: 20px;
-    position: absolute;
     padding-left: 25px;
     color: #efeae7;
-}
-
-.search-bar:hover .search-icon {
-    opacity: 0;
 }
 
 .search-bar:hover .search-icon {
@@ -97,18 +89,16 @@ body {
     list-style: none;
     float: right;
     padding-top: 10px;
-    position: relative;
 }
 
 .tabs li {
     display: inline-block;
     padding-left: 25px;
-    color: #fffbf4;
 }
 
 .tabs li a {
     text-decoration: none;
-    color: #fff;
+    color: #fffbf4;
 }
 
 .hl::after {
@@ -117,7 +107,7 @@ body {
     width: 0;
     height: 0;
     margin-top: 3px;
-    background-color: #ffffff;
+    background-color: #fffbf4;
     opacity: 0;
     transition: 0.5s;
     position: absolute;
@@ -147,9 +137,8 @@ body {
 }
 
 .account-menu {
-    display: none;
     position: absolute;
-    background-color: 0f080f;
+    background-color: #0f080f;
     width: 160px;
     z-index: 1;
     visibility: hidden;
@@ -161,7 +150,7 @@ body {
 }
 
 .account-menu a {
-    color: #fff;
+    color: #fffbf4;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -172,7 +161,7 @@ body {
     color: #0f080f;
 }
 
-.hla:hover>.account-menu {
+.hla:hover >.account-menu {
     display: block;
     visibility: visible;
 }
@@ -228,13 +217,13 @@ body {
 }
 
 .home-title {
-    color: #fff;
+    color: #fffbf4;
     font-size: 80px;
     text-transform: uppercase;
 }
 
 .home-p {
-    color: #dfdfdf;
+    color: #fffbf4;
     margin: 0px 0px 20px;
     letter-spacing: 2px;
     font-size: 25px;
@@ -252,7 +241,7 @@ body {
 
 .home-btn2 {
     background-color: blue;
-    color: #fff;
+    color: #fffbf4;
     margin-left: 10px;
 }
 
@@ -272,13 +261,14 @@ body {
 }
 
 .wel-line {
-    width: 180px;
+    width: 230px;
 }
 
 .wel-content {
-    display: flex;
     width: 80%;
     margin-left: 150px;
+    overflow: auto;
+    overflow: hidden;
 }
 
 .dw {
@@ -390,7 +380,6 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
-    text-align: center;
     overflow: auto;
     padding: 20px;
     color: #ffffff;
@@ -407,7 +396,6 @@ body {
     font-size: 25px;
     line-height: 25px;
     padding: 3px;
-    text-align: center;
     margin-left: 20px;
     border: 1px solid #d2d2d2;
     cursor: pointer;
@@ -426,7 +414,6 @@ body {
 
 .wh4 {
     margin: 20px 0 5px 0;
-    color: #b8b8b8;
 }
 
 .works-overlay h4 {
@@ -461,7 +448,6 @@ body {
 }
 
 .us-line {
-    width: 180px;
     margin: -100 auto 50;
 }
 
@@ -762,7 +748,6 @@ body {
 
 .mb-text p {
     width: 80%;
-    text-align: center;
     margin: auto;
 }
 
@@ -809,9 +794,7 @@ body {
     float: left;
     background-color: #cdc2c0;
     width: 30%;
-
     padding: 14px 18px;
-    text-align: center;
     border-radius: 5px;
 }
 
@@ -863,7 +846,6 @@ body {
 }
 
 .team-info-sp1 {
-    text-transform: capitalize;
     color: rgb(108, 64, 64);
 }
 
@@ -898,7 +880,6 @@ body {
 .news-item {
     float: left;
     background-color: #beddff;
-    text-align: center;
     width: 30%;
     margin-right: 5%;
     border: 2px solid #007bff;
