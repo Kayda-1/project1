@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Times New Roman', Times, serif;
     font-family: 'Ad Lib', sans-serif;
@@ -15,7 +14,22 @@ body {
     background-color: #efeae7;
 }
 
-/* /////////////////// header */
+/*///// General /////*/
+.title {
+    color: #282538;
+    font-size: 45;
+    text-align: center;
+}
+
+.line {
+    height: 3px;
+    background-color: #282538;
+    margin: auto;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+/*///// Header /////*/
 .header {
     width: 100%;
     height: 60px;
@@ -42,7 +56,7 @@ body {
     color: #efeae7;
 }
 
-/* search */
+/*// Search //*/
 .search-bar {
     float: left;
     padding: 20px 20px;
@@ -74,7 +88,7 @@ body {
     opacity: 0;
 }
 
-/* Tabs */
+/*// Tabs //*/
 .tabs {
     list-style: none;
     float: right;
@@ -116,7 +130,7 @@ body {
     margin-left: 12px;
 }
 
-/* account-menu */
+/*// account-menu //*/
 .hla ul {
     list-style-type: none;
 }
@@ -186,13 +200,11 @@ body {
     opacity: 1;
 }
 
-
-
-/* ///////////// home section */
+/*///// Home /////*/
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(../images/bg-image.jpg);
+    background-image: url(../Images/WhatsApp\ Image\ 2024-11-16\ at\ 08.51.31_8f73baf5.jpg);
     position: relative;
 }
 
@@ -248,7 +260,7 @@ body {
     opacity: 0.7;
 }
 
-/* /////////////// welcome */
+/*///// Welcome /////*/
 .wel-dp {
     height: 80vh;
     color: #282538;
@@ -256,26 +268,18 @@ body {
 
 
 .wel-main-title {
-    text-align: center;
-    font-size: 45px;
     margin-top: 50px;
 }
 
 .wel-line {
     width: 180px;
-    height: 3px;
-    background-color: #282538;
-    margin: auto;
-    margin-bottom: 50px;
 }
-
 
 .wel-items {
     display: flex;
     width: 80%;
     margin-left: 150px;
 }
-
 
 .dw {
     width: 30%;
@@ -303,7 +307,6 @@ body {
     transition: 0.5s;
 }
 
-/* cdc2c0  c7bdbb */
 .dw:hover::after {
     width: 100%;
     height: 100%;
@@ -344,7 +347,7 @@ body {
     padding: 20px 0;
 }
 
-/* ////////////// Works Section */
+/*///// Works /////*/
 .works-bg {
     background-color: #cdc2c0;
 }
@@ -355,17 +358,11 @@ body {
 }
 
 .works-main-title {
-    text-align: center;
-    font-size: 45px;
     margin-bottom: 100px;
     margin-top: 20px;
-    color: #282538;
 }
 
 .works-line {
-    width: 150px;
-    height: 3px;
-    background-color: #282538;
     margin: -100 auto 20;
 }
 
@@ -453,23 +450,18 @@ body {
     height: 25px;
 }
 
-/* ///////////////About us */
+/*///// About Us /////*/
 .dpp {
     height: 100vh;
 }
 
 .us-main-title {
-    text-align: center;
-    font-size: 45px;
     margin-top: 50px;
     margin-bottom: 100px;
-    color: #282538;
 }
 
 .us-line {
     width: 180px;
-    height: 3px;
-    background-color: #282538;
     margin: -100 auto 50;
 }
 
@@ -536,7 +528,7 @@ body {
     transition: 0.7s;
 }
 
-/* ///////////////// choose us section */
+/*///// Choose-Us /////*/
 .choose-us {
     width: 80%;
     position: relative;
@@ -549,9 +541,8 @@ body {
 }
 
 .cu-line {
-    width: 240px;
-    height: 3px;
-    background-color: black;
+    width: 280px;
+    margin: 0;
     margin-top: 5px;
 }
 
@@ -622,7 +613,7 @@ body {
     transition: 0.4s;
 }
 
-/* ///////////// stats */
+/*///// Stats /////*/
 .stats {
     margin-top: 550px;
 }
@@ -633,7 +624,7 @@ body {
 
 .stats-bg,
 .mb-bg {
-    background-image: url(../images/tanjiro-kamado.jpeg);
+    background-image: url(../images/tanjiro-kamado-3840x2160-18414.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -653,25 +644,10 @@ body {
     color: #fff;
 }
 
-/* ///////////////// price setion */
+/*///// Price /////*/
 .price-section {
     margin-top: 80px;
     height: 100vh;
-}
-
-.price-main-title {
-    text-align: center;
-    font-size: 45px;
-    color: #282538;
-}
-
-
-.price-main-title-line {
-    width: 150px;
-    height: 3px;
-    background-color: #282538;
-    margin: auto;
-    margin-bottom: 50px;
 }
 
 .price-dp {
@@ -761,9 +737,9 @@ body {
 }
 
 
-/* ////////// members */
+/*///// Member /////*/
 .mb-bg {
-    background-image: url(../images/solo-leveling.jpeg);
+    background-image: url(../images/solo-leveling-game-3840x2160-17908.jpeg);
 }
 
 .mb-content {
@@ -819,7 +795,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* /////////////////////////// team section*/
+/*///// Team /////*/
 
 .our-team {
     width: 80%;
@@ -827,20 +803,6 @@ body {
     margin: auto;
     margin-top: 80px;
     text-align: center;
-}
-
-.team-title {
-    font-size: 40px;
-}
-
-.team-line {
-    width: 100px;
-    height: 3px;
-    width: 150px;
-    background-color: black;
-    margin: auto;
-    margin-bottom: 50px;
-
 }
 
 .team-content {
@@ -922,7 +884,7 @@ body {
     transition: all 0.8s ease-in-out 0.3s;
 }
 
-/*//////////////////////*/
+/*///// News /////*/
 
 .news {
     width: 80%;
@@ -931,19 +893,6 @@ body {
     margin-top: 80px;
     text-align: center;
     overflow: hidden;
-}
-
-.news-title {
-    font-size: 40px;
-}
-
-.news-line {
-    width: 100px;
-    height: 3px;
-    width: 150px;
-    background-color: black;
-    margin: auto;
-    margin-bottom: 50px;
 }
 
 .news-content {
@@ -963,11 +912,8 @@ body {
 
 .news-img {
     width: 90%;
-    height: 300px;
     margin: auto;
     padding: 20px;
-
-
 }
 
 .news-item img {
@@ -1054,8 +1000,7 @@ p,
     transition: 0.7s;
 }
 
-
-/* ////// footer */
+/*///// Footer /////*/
 .footer-p {
     background-color: #cdc2c0;
     margin-bottom: -500px;
