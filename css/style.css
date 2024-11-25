@@ -29,6 +29,10 @@ body {
     margin-bottom: 50px;
 }
 
+.list {
+    list-style-type: none;
+}
+
 /*///// Header /////*/
 .header {
     width: 100%;
@@ -131,10 +135,6 @@ body {
 }
 
 /*// account-menu //*/
-.hla ul {
-    list-style-type: none;
-}
-
 .hla li {
     position: relative;
 }
@@ -275,7 +275,7 @@ body {
     width: 180px;
 }
 
-.wel-items {
+.wel-content {
     display: flex;
     width: 80%;
     margin-left: 150px;
@@ -558,12 +558,6 @@ body {
     font-style: italic;
 }
 
-.cu-ul,
-.cu-list {
-    list-style-type: none;
-    color: gray;
-}
-
 .cu-ul li {
     padding: 11px 0px;
 }
@@ -711,7 +705,6 @@ body {
 }
 
 .price-dp ul {
-    list-style-type: none;
     margin: 20px 0px;
     padding: 0px;
     margin-top: 5px;
